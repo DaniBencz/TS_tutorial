@@ -1,0 +1,28 @@
+{
+  "name": "ts_tutorial",
+  "version": "1.0.0",
+  "description": "TS_tutorial",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+		"wpack": "webpack --watch",
+		"wpack-opt": " webpack --watch --optimize-minimize",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniBencz/TS_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniBencz/TS_tutorial/issues"
+  },
+  "homepage": "https://github.com/DaniBencz/TS_tutorial#readme"
+}

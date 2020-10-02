@@ -1,8 +1,10 @@
-need to install globally:
--typescript
--webpack-cli
--
+it is possible to start a project without npm init
+only it will not have package.json file included
+thus developer must remember, what dependencies must be installed first
+instead of simply using npm install command
 
+ts-loader probably still have to be manually linked...
 
-locally:
--ts-loader, has to be linked (npm link typescript)
+after having webpack installed, having tsc --watch running is pointless
+since webpack not only will transpile the .ts files to .js
+but will also create the bundle

@@ -3,6 +3,7 @@
 //https://github.com/codingforentrepreneurs/getting-started-with-typescript
 
 import {hello} from './hello'
+import {foo} from './foo'
 
 class SweetSweetClass {
     constructor() { 
@@ -10,4 +11,4 @@ class SweetSweetClass {
     }
 }
 let basil = new SweetSweetClass()
-hello()
+hello(foo)
