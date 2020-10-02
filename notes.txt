@@ -1,0 +1,8 @@
+need to install globally:
+-typescript
+-webpack-cli
+-
+
+
+locally:
+-ts-loader, has to be linked (npm link typescript)
