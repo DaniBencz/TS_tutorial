@@ -4,15 +4,18 @@
   "description": "TS_tutorial",
   "main": "webpack.config.js",
   "dependencies": {
+    "@types/jquery": "^3.5.1",
+    "jquery": "^3.5.1",
     "ts-loader": "^8.0.4",
+    "types": "^0.1.1",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {},
   "scripts": {
-		"wpack": "webpack --watch",
-		"wpack-opt": " webpack --watch --optimize-minimize",
+    "wpack": "webpack --watch",
+    "wpack-opt": " webpack --watch --optimize-minimize",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
