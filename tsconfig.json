@@ -7,7 +7,7 @@
     "preserveConstEnums": true
   },
   "include": [
-    "*"
+    "*", "src/hello.ts", "src/main.ts"
   ],
   "exclude": [
       "node_modules",
