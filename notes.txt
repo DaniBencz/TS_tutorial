@@ -5,6 +5,6 @@ instead of simply using npm install command
 
 ts-loader probably still have to be manually linked...
 
-after having webpack installed, having tsc --watch running is pointless
+after having webpack -watch running, having tsc --watch running is pointless
 since webpack not only will transpile the .ts files to .js
 but will also create the bundle
